@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fios Ateliê- Links</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Configurações Gerais e Fundo */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #E6DAD5; /* Tom de fundo rosê/areia da imagem */
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container Principal */
+        .container {
+            width: 100%;
+            max-width: 450px;
+            padding: 40px 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        /* Logo do Ateliê */
+        .profile-img {
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Título Principal */
+        .title {
+            font-family: 'Cinzel', serif;
+            color: #4A0D14 ; /* Tom terracota escuro */
+            font-size: 24px;
+            margin: 0 0 5px 0;
+            font-weight: 700;
+        }
+
+        /* Subtítulo / Descrição */
+        .subtitle {
+            color: #4A0D14 ;
+            font-size: 14px;
+            margin: 0 0 35px 0;
+            font-weight: 400;
+        }
+
+        /* Estilização dos Botões */
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #4A0D14 ; /* Cor terracota/caramelo dos botões */
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 12px; /* Cantos arredondados */
+            font-weight: 600;
+            font-size: 15px;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            position: relative;
+        }
+
+        /* Efeito ao passar o mouse */
+        .link-button:hover {
+            background-color: #4A0D14 ;
+            transform: translateY(-2px);
+        }
+
+        /* Ícones dentro dos botões (Simulação dos ícones da foto) */
+        .link-button::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            width: 24px;
+            height: 24px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.9;
+        }
+
+        /* Espaço em branco/separador cinza que está no meio da imagem */
+        .spacer {
+            height: 54px;
+            background-color: rgba(250, 245, 245, 0.4);
+            border: 1px solid rgba(250, 245, 245, 0.6);
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="C:/Users/Micael/Downloads/CAT FIOS/fios.jpeg" alt="Ateliê Isabelline" class="profile-img">
+        
+        <h1 class="title">Fios Ateliê </h1>
+        <p class="subtitle">Fios que aquecem histórias 🤎</p>
+
+        <a href="https://wa.me/c/5511991786238" class="link-button">Catálogo</a>
+        
+        <a href="http://wa.me/5511991786238?text=Ola+Jamile,+Gostaria+de+mais+informações!+" class="link-button">Encomendas</a>
+            
+
+    </div>
+
+</body>
+</html>
